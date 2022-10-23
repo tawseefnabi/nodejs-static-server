@@ -1,1 +1,3 @@
 # nodejs-static-server
+The end goal of our static server is to let the user specify a file path in the URL and have that file returned as the contents of the page. However, the user shouldn't be able to specify just any path on our server, otherwise a malicious user could try to take advantage of a misconfigured system and steal sensitve information. A simple attack might look like this: localhost:8080/etc/shadow. Here the attacker would be requesting the /etc/shadow file. To prevent these kinds of attacks, we should be able to tell the server to only allow the user to download certain files, or only files from certain directories (like /var/www/my-website/public).
+

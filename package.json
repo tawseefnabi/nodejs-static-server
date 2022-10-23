@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-static-server",
+  "version": "1.0.0",
+  "description": "Node HTTP Servers for Static File Serving",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tawseefnabi/nodejs-static-server.git"
+  },
+  "author": "tawseefnabi9@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tawseefnabi/nodejs-static-server/issues"
+  },
+  "homepage": "https://github.com/tawseefnabi/nodejs-static-server#readme"
+}
